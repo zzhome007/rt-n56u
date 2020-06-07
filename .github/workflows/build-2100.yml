@@ -5,12 +5,12 @@ on:
 #     types: [published]
 #  push:
 #  tags:
-   - 'v*'
+#   - 'v*'
    #branches: 
    #  - master
-  schedule:
+   schedule:
     - cron: 0 17 * * 4
- watch:
+   watch:
    types: [started]
 
 jobs:
