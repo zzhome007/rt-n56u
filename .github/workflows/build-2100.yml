@@ -6,7 +6,7 @@ on:
 #  push:
 #  tags:
 #   - 'v*'
-   #branches: 
+#branches: 
    #  - master
    schedule:
     - cron: 0 17 * * 4
